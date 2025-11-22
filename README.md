@@ -75,7 +75,7 @@ module Gate_1 (
     output wire nand_out,
     output wire nor_out,
     output wire xor_out,
-    output wire xnor_out
+    output wire xnor_out  
 );
 
     assign and_out  = a & b;      // AND gate
